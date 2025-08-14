@@ -3,7 +3,7 @@ Proposal: Readable Message Authentication for HF Amateur Radio Digital Protocols
 
 
 
-Amateur radio digital modes, like most HF digital protocols, have no built-in way to prove that a message claiming to be from a particular callsign actually came from that operator. Anyone can transmit as anyone. While amateur regulations in many countries forbid encryption, they generally allow authentication methods that keep the content fully readable. This creates an opportunity to add lightweight verification without violating the "no obscuration" rule.
+Amateur radio digital modes, like most HF digital protocols, have no built-in way to prove that a message claiming to be from a particular callsign actually came from that operator. Anyone can transmit as anyone. While amateur regulations in many countries forbid encryption, they generally allow authentication methods that keep the content fully readable. This creates an opportunity to add lightweight verification without violating the "no obfuscation" rule.
 
 The goal is to give operators a simple way to check that a message really came from the person it claims to, without changing existing protocols or hiding the text. The system should add only a small overhead, work with existing digital mode software through available APIs, and be optional—stations that don't participate still see normal readable messages.
 
