@@ -4,7 +4,7 @@ Amateur radio digital modes, like most HF digital protocols, have no built-in wa
 
 The goal is to give operators a simple way to check that a message really came from the person it claims to, without changing existing protocols or hiding the text. The system should add only a small overhead, work with existing digital mode software through available APIs, and be optional—stations that don't participate still see normal readable messages.
 
-While this proposal uses JS8Call as the primary example, the authentication scheme is designed to work with any amateur digital protocol that can transmit text messages. JS8Call's short message constraints and limited character set make it an ideal test case—if the authentication overhead is acceptable here, it will work even better with protocols that allow longer transmissions such as FT4, PSK31, RTTY, packet radio, or digital voice modes.
+While this proposal uses JS8Call as the primary example, the authentication scheme is designed to work with any amateur digital protocol that can transmit text messages. JS8Call's short message constraints and limited character set make it an ideal test case—if the authentication overhead is acceptable here, it will work even better with protocols that allow longer transmissions such as PSK31, RTTY, packet radio, or digital voice modes.
 
 ## Threat Model
 
