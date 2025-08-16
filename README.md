@@ -1,4 +1,4 @@
-# Proposal: Readable Message Authentication for Amateur Radio Digital Protocols with Session Tokens and Offline Verification
+# Proposal: Readable Message Authentication for HF Amateur Radio Digital Protocols with Session Tokens and Offline Verification
 
 Amateur radio digital modes, like most HF digital protocols, have no built-in way to prove that a message claiming to be from a particular callsign actually came from that operator. Anyone can transmit as anyone. While amateur regulations in many countries forbid encryption, they generally allow authentication methods that keep the content fully readable. This creates an opportunity to add lightweight verification without violating the "no obfuscation" rule.
 
